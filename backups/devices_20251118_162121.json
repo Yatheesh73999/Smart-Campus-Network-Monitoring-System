@@ -1,0 +1,9 @@
+{
+    "devices": [
+      { "name": "Core Router",      "ip": "8.8.8.8",       "snmp": true,  "community": "public", "role": "core" },
+      { "name": "WiFi Controller",  "ip": "8.8.4.4",       "snmp": true,  "community": "public", "role": "wireless" },
+      { "name": "Lab Switch 1",     "ip": "1.1.1.1",       "snmp": false, "community": "public", "role": "access" },
+      { "name": "SNMP Demo Router", "ip": "demo.snmplabs.com", "snmp": true, "community": "public", "role": "demo" }
+    ]
+  }
+  
